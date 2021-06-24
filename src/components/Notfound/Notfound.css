@@ -1,0 +1,8 @@
+.not-found{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight:900;
+    padding-top: 200px;
+    text-align: center;
+}

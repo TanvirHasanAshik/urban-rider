@@ -1,0 +1,12 @@
+.nav-item a{
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+}
+.nav-item a:hover{
+    color: rgb(255, 218, 218);
+}
+.site-name{
+    padding-left: 50px;
+    color:rgb(255, 218, 218);
+}
