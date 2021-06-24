@@ -7,7 +7,6 @@ import "./Home.css";
 import vehicle from '../../fakeData/vehicles';
 import VehicleCollection from '../VehicleCollection/VehicleCollection';
 const Home = () => {
-    console.log(vehicle);
     return (
         <div className="home-component">
            <Container className="home-container">

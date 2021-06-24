@@ -3,7 +3,6 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './VehicleCollection.css';
 const VehicleCollection = (props) => {
-    console.log(props);
     const {image, vehiclesType} = props.ride;
     return (
         <div className="vehicle-container">
