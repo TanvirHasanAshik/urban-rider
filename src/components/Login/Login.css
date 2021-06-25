@@ -1,0 +1,41 @@
+.login-container form input{
+    width: 90%;
+    height: 60%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding-left: 30px;
+}
+.login-container form{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 35%;
+    margin: auto;
+    margin-top: 5%;
+    /* margin-bottom: 5%; */
+    padding: 20px;
+}
+.submitBtn{
+    padding: 5px;
+    background-color: rgb(255, 12, 12);
+}
+.login-container{
+    margin: auto;
+}
+.signIn-btn Button{
+   margin: 0 90px;
+   width: 60%;
+   color: rgb(41, 26, 26);
+   background-color: white;
+   border: 1px solid lightgray;
+   border-radius: 20px;
+}
+.signIn-btn Button img{
+    width: 25px;
+}
+.signIn-btn{
+    margin-bottom: 100px;
+}
+.signIn-btn p{
+    margin: 0 100px;
+}
