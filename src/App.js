@@ -20,8 +20,8 @@ export const ContextUser = createContext();
 
 function App() {
   const [loggedInUser, setLoggedInUser] = useState({});
+  console.log(loggedInUser)
   return (
-    
     <ContextUser.Provider value={[loggedInUser, setLoggedInUser]}>
       <Router>
         <Header></Header>

@@ -45,8 +45,6 @@ const Destination = () => {
         });
         setOrder(ride);
     }, [vehiclesType])
-    
-    console.log(order);
     return (
         <div className='destinationContainer'>
            <Container>

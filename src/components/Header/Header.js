@@ -17,9 +17,9 @@ const Header = () => {
                     <Link to="blog">Blog</Link>
                     <Link to="contact">Contact</Link>
                     {
-                        <img src={loggedInUser.image} alt="" />
+                      <img src={loggedInUser.image} alt="" />
                     }
-                        <span>{loggedInUser.name}</span>
+                        {loggedInUser.success && <span>{loggedInUser.name}</span>}
                     {
                         !loggedInUser.isSignedIn ? <Link to="login">Login</Link>
                         :<Button onClick={()=> setLoggedInUser({})}>Log Out</Button>
