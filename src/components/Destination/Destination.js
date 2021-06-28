@@ -6,7 +6,8 @@ import './Destination.css';
 import mapImage from '../../image/map.png';
 import orderRide from '../../fakeData/vehiclesCapacity';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faUserCheck } from '@fortawesome/free-solid-svg-icons';
+import { faUserCheck } from '@fortawesome/free-solid-svg-icons';
+import Map from '../Map/Map';
 
 const Destination = () => {
     const{vehiclesType} = useParams();
@@ -92,7 +93,7 @@ const Destination = () => {
                     }
                 </Col>
                 <Col md={8}>
-                    <img src={mapImage} alt="" />
+                    <Map></Map>
                 </Col>
             </Row>
            </Container>
